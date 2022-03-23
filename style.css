@@ -1,0 +1,11 @@
+article div{
+    
+    border: 1px solid pink;
+}
+
+article{
+    display: grid;
+    grid-template-columns: repeat(8, 50px);
+    grid-template-rows: repeat(8, 50px);
+    
+}
